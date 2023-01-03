@@ -85,6 +85,20 @@ header{
   max-width: 550px;
 }
 
+.switch-network-button {
+  background-image: linear-gradient(
+    to right,
+    #7797ff 0%,
+    #7aafff 0%,
+    #7fa3ff 21%,
+    #85ccf9 52%,
+    #7255cf 78%,
+    #722ab1 100%
+  );
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
 .connect-wallet-container img {
   padding-bottom: 20px;
 }
